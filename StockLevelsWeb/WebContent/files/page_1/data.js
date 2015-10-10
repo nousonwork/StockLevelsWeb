@@ -1,0 +1,874 @@
+﻿$axure.loadCurrentPage({
+  "url":"page_1.html",
+  "generationDate":new Date(1442161483472.37),
+  "isCanvasEnabled":false,
+  "variables":["OnLoadVariable"],
+  "page":{
+    "packageId":"4cf1750e656a494aab76976622675805",
+    "type":"Axure:Page",
+    "name":"Page 1",
+    "notes":{
+},
+    "style":{
+      "baseStyle":"627587b6038d43cca051c114ac41ad32",
+      "pageAlignment":"near",
+      "fill":{
+        "fillType":"solid",
+        "color":0xFFFFFFFF},
+      "image":null,
+      "imageHorizontalAlignment":"near",
+      "imageVerticalAlignment":"near",
+      "imageRepeat":"auto",
+      "favicon":null,
+      "sketchFactor":"0",
+      "colorStyle":"appliedColor",
+      "fontName":"Applied Font",
+      "borderWidth":"0"},
+    "adaptiveStyles":{
+},
+    "interactionMap":{
+      "onLoad":{
+        "description":"OnLoad",
+        "cases":[{
+            "description":"Case 1",
+            "isNewIfGroup":false,
+            "actions":[{
+                "action":"setFunction",
+                "description":"Set is selected of (Shape) equal to &quot;true&quot;",
+                "expr":{
+                  "exprType":"block",
+                  "subExprs":[{
+                      "exprType":"fcall",
+                      "functionName":"SetCheckState",
+                      "arguments":[{
+                          "exprType":"pathLiteral",
+                          "isThis":false,
+                          "isFocused":false,
+                          "isTarget":false,
+                          "value":["2f3314e9ade0448f97b32cba2bf45086"]},
+{
+                          "exprType":"stringLiteral",
+                          "value":"true",
+                          "stos":[]}]}]}},
+{
+                "action":"setPanelState",
+                "description":"Set TabDynamicPanel1 to State1 show if hidden",
+                "panelsToStates":[{
+                    "panelPath":["db871a96a5bd41eabc56bd4c12fdd19b"],
+                    "stateInfo":{
+                      "setStateType":"diagram",
+                      "stateNumber":1,
+                      "stateValue":{
+                        "exprType":"stringLiteral",
+                        "value":"1",
+                        "stos":[]},
+                      "loop":false,
+                      "showWhenSet":true,
+                      "options":{
+                        "compress":false}}}]}]}]}},
+    "diagram":{
+      "objects":[{
+          "id":"2f3314e9ade0448f97b32cba2bf45086",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "selected":true,
+          "style":{
+            "foreGroundFill":{
+              "fillType":"solid",
+              "color":0xFF330099,
+              "opacity":1},
+            "stateStyles":{
+              "selected":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "fill":{
+                  "fillType":"linearGradient",
+                  "colors":[{
+                      "color":0xFF3366FF},
+{
+                      "color":0xFF3366FF},
+{
+                      "color":0xFF000000},
+{
+                      "color":0xFF000000}]}}},
+            "location":{
+              "x":21,
+              "y":70},
+            "size":{
+              "width":99,
+              "height":32}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"7808bd720fd9473584bf0d3f381ec664",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFF330099,
+                  "opacity":1},
+                "stateStyles":{
+                  "selected":{
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFFFF,
+                      "opacity":1},
+                    "fill":{
+                      "fillType":"linearGradient",
+                      "colors":[{
+                          "color":0xFF3366FF},
+{
+                          "color":0xFF3366FF},
+{
+                          "color":0xFF000000},
+{
+                          "color":0xFF000000}]}}},
+                "location":{
+                  "x":21,
+                  "y":70},
+                "size":{
+                  "width":99,
+                  "height":32}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"Set is selected of (Shape) equal to &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["2f3314e9ade0448f97b32cba2bf45086"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}},
+{
+                      "action":"setPanelState",
+                      "description":"Set TabDynamicPanel1 to State1 show if hidden",
+                      "panelsToStates":[{
+                          "panelPath":["db871a96a5bd41eabc56bd4c12fdd19b"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":1,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":true,
+                            "options":{
+                              "compress":false}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/page_1/u0.png",
+            "selected~":"images/page_1/u0_selected.png"}},
+{
+          "id":"91937cee78124648a4cd8d41d378ccb1",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "selected":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "fill":{
+                  "fillType":"linearGradient",
+                  "colors":[{
+                      "color":0xFF3366FF},
+{
+                      "color":0xFF3366FF},
+{
+                      "color":0xFF000000},
+{
+                      "color":0xFF000000}]}}},
+            "location":{
+              "x":130,
+              "y":70},
+            "size":{
+              "width":100,
+              "height":32}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"6bad0be2ec69449c927f261aa5794404",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "stateStyles":{
+                  "selected":{
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFFFF,
+                      "opacity":1},
+                    "fill":{
+                      "fillType":"linearGradient",
+                      "colors":[{
+                          "color":0xFF3366FF},
+{
+                          "color":0xFF3366FF},
+{
+                          "color":0xFF000000},
+{
+                          "color":0xFF000000}]}}},
+                "location":{
+                  "x":130,
+                  "y":70},
+                "size":{
+                  "width":100,
+                  "height":32}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"Set is selected of (Shape) equal to &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["91937cee78124648a4cd8d41d378ccb1"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}},
+{
+                      "action":"setPanelState",
+                      "description":"Set TabDynamicPanel1 to State2 show if hidden",
+                      "panelsToStates":[{
+                          "panelPath":["db871a96a5bd41eabc56bd4c12fdd19b"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":4,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":true,
+                            "options":{
+                              "compress":false}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/page_1/u2.png",
+            "selected~":"images/page_1/u2_selected.png"}},
+{
+          "id":"be43679035a3471388119e23eb79ad37",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "selected":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "fill":{
+                  "fillType":"linearGradient",
+                  "colors":[{
+                      "color":0xFF3366FF},
+{
+                      "color":0xFF3366FF},
+{
+                      "color":0xFF000000},
+{
+                      "color":0xFF000000}]}}},
+            "location":{
+              "x":240,
+              "y":70},
+            "size":{
+              "width":100,
+              "height":32}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"bcace6ef7d4e404ba38872f7cd460a99",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "stateStyles":{
+                  "selected":{
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFFFF,
+                      "opacity":1},
+                    "fill":{
+                      "fillType":"linearGradient",
+                      "colors":[{
+                          "color":0xFF3366FF},
+{
+                          "color":0xFF3366FF},
+{
+                          "color":0xFF000000},
+{
+                          "color":0xFF000000}]}}},
+                "location":{
+                  "x":240,
+                  "y":70},
+                "size":{
+                  "width":100,
+                  "height":32}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"Set is selected of (Shape) equal to &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["be43679035a3471388119e23eb79ad37"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}},
+{
+                      "action":"setPanelState",
+                      "description":"Set TabDynamicPanel1 to State3 show if hidden",
+                      "panelsToStates":[{
+                          "panelPath":["db871a96a5bd41eabc56bd4c12fdd19b"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":3,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":true,
+                            "options":{
+                              "compress":false}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/page_1/u2.png",
+            "selected~":"images/page_1/u2_selected.png"}},
+{
+          "id":"86edfd747d7946c29ba9b62538545e1c",
+          "label":"",
+          "type":"buttonShape",
+          "styleType":"buttonShape",
+          "visible":true,
+          "style":{
+            "stateStyles":{
+              "selected":{
+                "foreGroundFill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFFFF,
+                  "opacity":1},
+                "fill":{
+                  "fillType":"linearGradient",
+                  "colors":[{
+                      "color":0xFF3366FF},
+{
+                      "color":0xFF3366FF},
+{
+                      "color":0xFF000000},
+{
+                      "color":0xFF000000}]}}},
+            "location":{
+              "x":350,
+              "y":70},
+            "size":{
+              "width":100,
+              "height":32}},
+          "adaptiveStyles":{
+},
+          "objects":[{
+              "id":"c1da6703731043ac913faf31ff422da5",
+              "label":"",
+              "isContained":true,
+              "type":"richTextPanel",
+              "styleType":"paragraph",
+              "visible":true,
+              "style":{
+                "stateStyles":{
+                  "selected":{
+                    "foreGroundFill":{
+                      "fillType":"solid",
+                      "color":0xFFFFFFFF,
+                      "opacity":1},
+                    "fill":{
+                      "fillType":"linearGradient",
+                      "colors":[{
+                          "color":0xFF3366FF},
+{
+                          "color":0xFF3366FF},
+{
+                          "color":0xFF000000},
+{
+                          "color":0xFF000000}]}}},
+                "location":{
+                  "x":350,
+                  "y":70},
+                "size":{
+                  "width":100,
+                  "height":32}},
+              "adaptiveStyles":{
+}}],
+          "interactionMap":{
+            "onClick":{
+              "description":"OnClick",
+              "cases":[{
+                  "description":"Case 1",
+                  "isNewIfGroup":false,
+                  "actions":[{
+                      "action":"setFunction",
+                      "description":"Set is selected of (Shape) equal to &quot;true&quot;",
+                      "expr":{
+                        "exprType":"block",
+                        "subExprs":[{
+                            "exprType":"fcall",
+                            "functionName":"SetCheckState",
+                            "arguments":[{
+                                "exprType":"pathLiteral",
+                                "isThis":false,
+                                "isFocused":false,
+                                "isTarget":false,
+                                "value":["86edfd747d7946c29ba9b62538545e1c"]},
+{
+                                "exprType":"stringLiteral",
+                                "value":"true",
+                                "stos":[]}]}]}},
+{
+                      "action":"setPanelState",
+                      "description":"Set TabDynamicPanel1 to State4 show if hidden",
+                      "panelsToStates":[{
+                          "panelPath":["db871a96a5bd41eabc56bd4c12fdd19b"],
+                          "stateInfo":{
+                            "setStateType":"diagram",
+                            "stateNumber":2,
+                            "stateValue":{
+                              "exprType":"stringLiteral",
+                              "value":"1",
+                              "stos":[]},
+                            "loop":false,
+                            "showWhenSet":true,
+                            "options":{
+                              "compress":false}}}]}]}]}},
+          "tabbable":true,
+          "images":{
+            "normal~":"images/page_1/u2.png",
+            "selected~":"images/page_1/u2_selected.png"}},
+{
+          "id":"db871a96a5bd41eabc56bd4c12fdd19b",
+          "label":"TabDynamicPanel1",
+          "type":"dynamicPanel",
+          "styleType":"dynamicPanel",
+          "visible":false,
+          "style":{
+            "location":{
+              "x":21,
+              "y":102},
+            "size":{
+              "width":10,
+              "height":10},
+            "visible":false},
+          "adaptiveStyles":{
+},
+          "scrollbars":"none",
+          "fitToContent":true,
+          "propagate":false,
+          "diagrams":[{
+              "id":"6ec528000c1f47b7a1a1cb76e04f49af",
+              "label":"State1",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"9ec9cba1f8bc4acdbbcb5e84781e050b",
+                  "label":"",
+                  "parentDynamicPanel":"db871a96a5bd41eabc56bd4c12fdd19b",
+                  "panelIndex":0,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":489,
+                      "height":138}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"823b335894794a7084a73edc1926f5b3",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"db871a96a5bd41eabc56bd4c12fdd19b",
+                      "panelIndex":0,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":489,
+                          "height":138}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/page_1/u9.png"}},
+{
+                  "id":"e5e507e0cb2b48c6b06a44b3b19d3538",
+                  "label":"",
+                  "parentDynamicPanel":"db871a96a5bd41eabc56bd4c12fdd19b",
+                  "panelIndex":0,
+                  "type":"comboBox",
+                  "styleType":"comboBox",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":100,
+                      "y":58},
+                    "size":{
+                      "width":200,
+                      "height":22}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onSelectionChange":{
+                      "description":"OnSelectionChange",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"linkFrame",
+                              "description":"Open Page 2 in Parent Frame",
+                              "linkType":"parentFrame",
+                              "target":{
+                                "targetType":"page",
+                                "url":"page_2.html",
+                                "includeVariables":true}}]}]}}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}},
+{
+              "id":"33ace220afb3442d87f2f2afa785dd2c",
+              "label":"State4",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"5ff6492bb0864fe0965ca2a1c2b6e214",
+                  "label":"",
+                  "parentDynamicPanel":"db871a96a5bd41eabc56bd4c12fdd19b",
+                  "panelIndex":1,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":489,
+                      "height":138}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"82fefdf04f7d44a1af11f81a959bd470",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"db871a96a5bd41eabc56bd4c12fdd19b",
+                      "panelIndex":1,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":489,
+                          "height":138}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/page_1/u9.png"}},
+{
+                  "id":"2e54483e6e6042559a7a0f305d3b998b",
+                  "label":"",
+                  "parentDynamicPanel":"db871a96a5bd41eabc56bd4c12fdd19b",
+                  "panelIndex":1,
+                  "type":"comboBox",
+                  "styleType":"comboBox",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":100,
+                      "y":58},
+                    "size":{
+                      "width":200,
+                      "height":22}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onSelectionChange":{
+                      "description":"OnSelectionChange",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"linkFrame",
+                              "description":"Open Page 2 in Parent Frame",
+                              "linkType":"parentFrame",
+                              "target":{
+                                "targetType":"page",
+                                "url":"page_2.html",
+                                "includeVariables":true}}]}]}}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}},
+{
+              "id":"463395b0805f4e5d9ba3f6805541da74",
+              "label":"State3",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"d9c38449bf3d47cabd5b6463d4076b88",
+                  "label":"",
+                  "parentDynamicPanel":"db871a96a5bd41eabc56bd4c12fdd19b",
+                  "panelIndex":2,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":489,
+                      "height":138}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"38fdc28a55bd4df980fa625e75187a66",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"db871a96a5bd41eabc56bd4c12fdd19b",
+                      "panelIndex":2,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":489,
+                          "height":138}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/page_1/u9.png"}},
+{
+                  "id":"31888ff1b564426088f40a1ec56a7d6a",
+                  "label":"",
+                  "parentDynamicPanel":"db871a96a5bd41eabc56bd4c12fdd19b",
+                  "panelIndex":2,
+                  "type":"comboBox",
+                  "styleType":"comboBox",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":90,
+                      "y":58},
+                    "size":{
+                      "width":200,
+                      "height":22}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onSelectionChange":{
+                      "description":"OnSelectionChange",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"linkFrame",
+                              "description":"Open Page 2 in Parent Frame",
+                              "linkType":"parentFrame",
+                              "target":{
+                                "targetType":"page",
+                                "url":"page_2.html",
+                                "includeVariables":true}}]}]}}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}},
+{
+              "id":"ee18577962134ef3aabbc298b7d53ff6",
+              "label":"State2",
+              "type":"Axure:PanelDiagram",
+              "objects":[{
+                  "id":"730d9c345ea048a49c0e21951f9d1f93",
+                  "label":"",
+                  "parentDynamicPanel":"db871a96a5bd41eabc56bd4c12fdd19b",
+                  "panelIndex":3,
+                  "type":"buttonShape",
+                  "styleType":"buttonShape",
+                  "visible":true,
+                  "style":{
+                    "size":{
+                      "width":489,
+                      "height":138}},
+                  "adaptiveStyles":{
+},
+                  "objects":[{
+                      "id":"59a1a0383e9748debb7c56710af24026",
+                      "label":"",
+                      "isContained":true,
+                      "parentDynamicPanel":"db871a96a5bd41eabc56bd4c12fdd19b",
+                      "panelIndex":3,
+                      "type":"richTextPanel",
+                      "styleType":"paragraph",
+                      "visible":true,
+                      "style":{
+                        "size":{
+                          "width":489,
+                          "height":138}},
+                      "adaptiveStyles":{
+}}],
+                  "images":{
+                    "normal~":"images/page_1/u9.png"}},
+{
+                  "id":"cdb7c523a331482aafe899583589c8a0",
+                  "label":"",
+                  "parentDynamicPanel":"db871a96a5bd41eabc56bd4c12fdd19b",
+                  "panelIndex":3,
+                  "type":"comboBox",
+                  "styleType":"comboBox",
+                  "visible":true,
+                  "style":{
+                    "location":{
+                      "x":80,
+                      "y":58},
+                    "size":{
+                      "width":200,
+                      "height":22}},
+                  "adaptiveStyles":{
+},
+                  "interactionMap":{
+                    "onSelectionChange":{
+                      "description":"OnSelectionChange",
+                      "cases":[{
+                          "description":"Case 1",
+                          "isNewIfGroup":false,
+                          "actions":[{
+                              "action":"linkFrame",
+                              "description":"Open Page 3 in Parent Frame",
+                              "linkType":"parentFrame",
+                              "target":{
+                                "targetType":"page",
+                                "url":"page_3.html",
+                                "includeVariables":true}}]}]}}}],
+              "style":{
+                "fill":{
+                  "fillType":"solid",
+                  "color":0xFFFFFF},
+                "image":null,
+                "imageHorizontalAlignment":"near",
+                "imageVerticalAlignment":"near",
+                "imageRepeat":"auto"},
+              "adaptiveStyles":{
+}}]}]}},
+  "masters":{
+},
+  "objectPaths":{
+    "2f3314e9ade0448f97b32cba2bf45086":{
+      "scriptId":"u0"},
+    "7808bd720fd9473584bf0d3f381ec664":{
+      "scriptId":"u1"},
+    "91937cee78124648a4cd8d41d378ccb1":{
+      "scriptId":"u2"},
+    "6bad0be2ec69449c927f261aa5794404":{
+      "scriptId":"u3"},
+    "be43679035a3471388119e23eb79ad37":{
+      "scriptId":"u4"},
+    "bcace6ef7d4e404ba38872f7cd460a99":{
+      "scriptId":"u5"},
+    "86edfd747d7946c29ba9b62538545e1c":{
+      "scriptId":"u6"},
+    "c1da6703731043ac913faf31ff422da5":{
+      "scriptId":"u7"},
+    "db871a96a5bd41eabc56bd4c12fdd19b":{
+      "scriptId":"u8"},
+    "9ec9cba1f8bc4acdbbcb5e84781e050b":{
+      "scriptId":"u9"},
+    "823b335894794a7084a73edc1926f5b3":{
+      "scriptId":"u10"},
+    "e5e507e0cb2b48c6b06a44b3b19d3538":{
+      "scriptId":"u11"},
+    "5ff6492bb0864fe0965ca2a1c2b6e214":{
+      "scriptId":"u12"},
+    "82fefdf04f7d44a1af11f81a959bd470":{
+      "scriptId":"u13"},
+    "2e54483e6e6042559a7a0f305d3b998b":{
+      "scriptId":"u14"},
+    "d9c38449bf3d47cabd5b6463d4076b88":{
+      "scriptId":"u15"},
+    "38fdc28a55bd4df980fa625e75187a66":{
+      "scriptId":"u16"},
+    "31888ff1b564426088f40a1ec56a7d6a":{
+      "scriptId":"u17"},
+    "730d9c345ea048a49c0e21951f9d1f93":{
+      "scriptId":"u18"},
+    "59a1a0383e9748debb7c56710af24026":{
+      "scriptId":"u19"},
+    "cdb7c523a331482aafe899583589c8a0":{
+      "scriptId":"u20"}}});
